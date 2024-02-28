@@ -7,13 +7,13 @@ export const Bio = {
   ],
   description:
     "Passionate about data analysis and management, particularly in Geographic Information System (GIS) data. Eager to transition into a QA Engineer role and explore diverse facets of data manipulation across industries. Possessing strong foundations in data management and programming, I'm ready to innovate in various domains. With an adaptable nature and insatiable thirst for knowledge, I'm poised to excel in my new career path as a QA Engineer, infusing each role with energy and enthusiasm.",
-  github: "https://github.com/ATPXJ",
+  github: "https://github.com/atipjaitham",
   resume:
     "https://drive.google.com/file/d/1rkmxJtWB2xy3neRfFCJAy8ytYBlXyRqC/view?usp=sharing",
-  linkedin: "https://www.linkedin.com/in/atpxj/",
+  linkedin: "https://www.linkedin.com/in/atipjaitham/",
   twitter: "https://twitter.com/_atpx_",
   insta: "https://www.instagram.com/golfxat/",
-  github: "https://github.com/ATPXJ",
+  github: "https://github.com/atipjaitham",
 };
 
 export const skills = [
