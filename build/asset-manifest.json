@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/atip-jaitham-portfolio/static/css/main.58a0c615.css",
+    "main.js": "/atip-jaitham-portfolio/static/js/main.c35d7e78.js",
+    "static/media/HeroImage.jpg": "/atip-jaitham-portfolio/static/media/HeroImage.477f4137b6fbd5a8232b.jpg",
+    "index.html": "/atip-jaitham-portfolio/index.html",
+    "main.58a0c615.css.map": "/atip-jaitham-portfolio/static/css/main.58a0c615.css.map",
+    "main.c35d7e78.js.map": "/atip-jaitham-portfolio/static/js/main.c35d7e78.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58a0c615.css",
+    "static/js/main.c35d7e78.js"
+  ]
+}

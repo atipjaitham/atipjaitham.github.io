@@ -1,7 +1,7 @@
 {
-  "name": "3d-portfolio-website",
+  "name": "portfolio-website",
   "version": "0.1.1",
-  "homepage": "https://rishavchanda.github.io",
+  "homepage": "https://atpxj.github.io/atip-jaitham-portfolio",
   "private": true,
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.16.0",
