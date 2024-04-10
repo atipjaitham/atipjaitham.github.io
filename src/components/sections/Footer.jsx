@@ -105,7 +105,6 @@ const Footer = () => {
             <LinkedInIcon />
           </SocialMediaIcon>
         </SocialMediaIcons>
-        <Copyright>&copy; 2024 Atip Jaitham. All rights reserved.</Copyright>
       </FooterWrapper>
     </FooterContainer>
   );
