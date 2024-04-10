@@ -101,14 +101,8 @@ const Footer = () => {
           <SocialMediaIcon href={Bio.github} target="display">
             <GithubIcon />
           </SocialMediaIcon>
-          <SocialMediaIcon href={Bio.twitter} target="display">
-            <TwitterIcon />
-          </SocialMediaIcon>
           <SocialMediaIcon href={Bio.linkedin} target="display">
             <LinkedInIcon />
-          </SocialMediaIcon>
-          <SocialMediaIcon href={Bio.insta} target="display">
-            <InstagramIcon />
           </SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>&copy; 2024 Atip Jaitham. All rights reserved.</Copyright>

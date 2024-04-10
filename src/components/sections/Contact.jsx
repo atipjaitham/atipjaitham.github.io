@@ -130,7 +130,18 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(formRef.current);
+    const formData = new FormData(formRef.current);
+    const isValid = Array.from(formData.entries()).every(
+      ([name, value]) => value.trim() !== ""
+    );
+
+    if (!isValid) {
+      // If any field(s) is/are left blank, display a warning message.
+      alert(
+        "Please complete all fields to ensure we don't miss the chance to connect with each other !"
+      );
+      return;
+    }
 
     emailjs
       .sendForm(
@@ -141,7 +152,9 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          alert("Message Sent");
+          alert(
+            "Great! I'll get back to you immediately."
+          );
           formRef.current.reset();
         },
         (error) => {
@@ -156,7 +169,8 @@ const Contact = () => {
         <EarthCanvas />
         <Title>Contact</Title>
         <Desc>
-        Feel free to reach out to me for any questions or opportunities! I'm ready to answer your queries and collaborate with you. 💬
+          Feel free to reach out to me for any questions or opportunities! I'm
+          ready to answer your queries and collaborate with you. 💬
         </Desc>
         <ContactForm ref={formRef} onSubmit={handleSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>

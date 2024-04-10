@@ -104,7 +104,9 @@ const Projects = ({ openModal, setOpenModal }) => {
             marginBottom: "40px",
           }}
         >
-          The entirety of this project has been developed through my own diligent study, research, and experimentation, all with the aim of consistently enhancing my personal growth. 
+          The entirety of this project has been developed through my own
+          diligent study, research, and experimentation, all with the aim of
+          consistently enhancing my personal growth.
         </Desc>
         <ToggleButtonGroup>
           <ToggleButton
@@ -114,25 +116,33 @@ const Projects = ({ openModal, setOpenModal }) => {
             ALL
           </ToggleButton>
           <Divider />
+
           <ToggleButton
-            active={toggle === "selenium"}
-            onClick={() => setToggle("selenium")}
+            active={toggle === "data"}
+            onClick={() => setToggle("data")}
           >
-            SELENIUM
+            DATA
           </ToggleButton>
           <Divider />
           <ToggleButton
-            active={toggle === "robot framework"}
-            onClick={() => setToggle("robot framework")}
+            active={toggle === "testing"}
+            onClick={() => setToggle("testing")}
           >
-            ROBOT FRAMEWORK
+            TESTING
+          </ToggleButton>
+          <Divider />
+          <ToggleButton
+            active={toggle === "thesis"}
+            onClick={() => setToggle("thesis")}
+          >
+            THESIS
           </ToggleButton>
           <Divider />
           <ToggleButton
             active={toggle === "other"}
             onClick={() => setToggle("other")}
           >
-           OTHER
+            OTHER
           </ToggleButton>
         </ToggleButtonGroup>
         <CardContainer>

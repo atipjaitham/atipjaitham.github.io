@@ -59,7 +59,6 @@ export const skills = [
         image:
           "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
       },
-
     ],
   },
   {
@@ -67,11 +66,13 @@ export const skills = [
     skills: [
       {
         name: "Manual Testing",
-        image: "https://firebasestorage.googleapis.com/v0/b/atpxj-portfolio.appspot.com/o/Skills%2Fmanual.png?alt=media&token=9cfbed58-be5a-4b0b-8b1d-9f5a0bd70c9e",
+        image:
+          "https://firebasestorage.googleapis.com/v0/b/atpxj-portfolio.appspot.com/o/Skills%2Ficons8-user-manual-80.png?alt=media&token=c2e06b47-5f70-4943-a160-d4940e0d8794",
       },
       {
         name: "Selenium",
-        image: "https://firebasestorage.googleapis.com/v0/b/atpxj-portfolio.appspot.com/o/Skills%2Fselenium.png?alt=media&token=0dc8c129-6d69-40ac-abda-4c01db08fc00",
+        image:
+          "https://firebasestorage.googleapis.com/v0/b/atpxj-portfolio.appspot.com/o/Skills%2Fselenium.png?alt=media&token=0dc8c129-6d69-40ac-abda-4c01db08fc00",
       },
       {
         name: "Robot Framework",
@@ -80,16 +81,18 @@ export const skills = [
       },
       {
         name: "API",
-        image: "https://firebasestorage.googleapis.com/v0/b/atpxj-portfolio.appspot.com/o/Skills%2FAPI.png?alt=media&token=eab85e9f-67e4-4258-ae47-00005f4c7f52",
-      },
-      {
-        name: "Jmeter",
-        image: "https://firebasestorage.googleapis.com/v0/b/atpxj-portfolio.appspot.com/o/Skills%2FJmeter.png?alt=media&token=7f101d04-c944-4d16-af92-8825ff514dee",
+        image:
+          "https://firebasestorage.googleapis.com/v0/b/atpxj-portfolio.appspot.com/o/Skills%2FAPI.png?alt=media&token=eab85e9f-67e4-4258-ae47-00005f4c7f52",
       },
       {
         name: "Jenkins",
         image:
-          "https://toppng.com/uploads/preview/jenkins-logo-11609365847mufysaivph.png",
+          "https://firebasestorage.googleapis.com/v0/b/atpxj-portfolio.appspot.com/o/Skills%2Fjenkins.png?alt=media&token=6c9e9955-75f8-4be4-bd62-b105a434b517",
+      },
+      {
+        name: "Pytest",
+        image:
+          "https://firebasestorage.googleapis.com/v0/b/atpxj-portfolio.appspot.com/o/Skills%2FPytest_logo.svg.png?alt=media&token=58258124-e952-4df2-965a-e8569cbb0569",
       },
     ],
   },
@@ -207,20 +210,138 @@ export const education = [
 export const projects = [
   {
     id: 0,
-    title: "Test1",
-    date: "Jan 2024 - Dec 2023",
+    title: "Automating Crypto Data Collection with Python",
+    date: "",
     description:
-      "test waiting for update",
+      "This project demonstrates the automation of data collection from a cryptocurrency API using Python. Through this tutorial, you'll learn how to set up a script to pull data from the CoinMarketCap API, organize it, clean it, and visualize it for analysis.",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/atpxj-portfolio.appspot.com/o/coming%20soon.png?alt=media&token=f5c9e67a-f379-4693-9f87-84ad964010ce",
+      "https://firebasestorage.googleapis.com/v0/b/atpxj-portfolio.appspot.com/o/projects%2FAutomating%20Crypto%20Data%20Collection%20with%20Python.png?alt=media&token=6c7f9578-d5ab-4e08-99d8-5a25797963ab",
+    tags: [
+      "Python",
+      "Data Cleaning",
+      "API",
+      "Data Analysis",
+      "Data Visualization",
+    ],
+    category: "data",
+    github: "https://github.com/atipjaitham/AutomatingCryptoWebsiteAPI",
+    webapp:
+      "https://colab.research.google.com/drive/1qIkxT3oZjPgAyEOr036DOHEex_4WBCvx?usp=sharing",
+  },
+  {
+    id: 1,
+    title: "Amazon Web Scraping Using Python",
+    date: "",
+    description:
+      "In this project, I aim to demystify web scraping by showcasing its applicability beyond just programmers and software developers—it's also a valuable tool for analysts like us! Specifically, I demonstrate how to scrape data from online shopping websites such as Amazon using BeautifulSoup and Requests libraries in Python. Focused on scraping data from a single product on Amazon, the project serves as a practical exercise to deepen understanding of programming principles. Each line of code is meticulously commented to provide detailed explanations of its functionality, facilitating comprehension for self-learners. Through this project, I hope to illustrate the accessibility and utility of web scraping techniques for analysts, empowering them to leverage data from various online sources for analysis and insights.",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/atpxj-portfolio.appspot.com/o/projects%2FAmazon%20Web%20Scraping%20Using%20Python.png?alt=media&token=6995b638-d2e8-4936-9eba-f681cac00167",
+    tags: [
+      "Python",
+      "Web Scraping",
+      "Data Handling",
+      "File Handling",
+      "Automation",
+    ],
+    category: "data",
+    github: "https://github.com/atipjaitham/AmazonWebScraping",
+    webapp:
+      "https://colab.research.google.com/drive/1IZAmyLKLfmfhZ2yK3zKM-cL1yMqwwMVl?usp=sharing",
+  },
+  {
+    id: 2,
+    title:
+      "Virtual Reality Development to Learn the Process of Artificial Rain",
+    date: "2020",
+    description:
+      "The study aims to use Virtual Reality (VR) technology to demonstrate the process of artificial rain, making it accessible to everyone. Through VR headsets and controllers, users can experience and interact with the process. Feedback from 10 testers confirms the effectiveness of the VR experience, highlighting the quality of development.\n Due to university copyright restrictions, the source code for this project cannot be publicly disclosed. However, related documentation can be shared.",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/atpxj-portfolio.appspot.com/o/projects%2FVR%20Development%20to%20Learn%20the%20Process%20of%20Artificial%20Rain.png?alt=media&token=09ddd968-f848-44f5-9379-9278a41833d6",
+    tags: ["C++", "Unity 3D", "3D Modeling", "Project Leadership"],
+    category: "thesis",
+    github: "",
+    webapp:
+      "https://drive.google.com/file/d/1DaVC-AKky5MGltc66Ub6N4Zan6X77fd4/view?usp=sharing",
+  },
+  {
+    id: 3,
+    title: "London Bike Rides",
+    date: "",
+    description:
+      "This repository showcases an end-to-end data analyst portfolio project that illustrates the complete process from data gathering to data visualization using Python and Tableau. The project centers around analyzing the London bike sharing dataset sourced from Kaggle. It encompasses key stages of data analysis, including data gathering, assessment, exploration, manipulation, and visualization.",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/atpxj-portfolio.appspot.com/o/projects%2FLondon%20Bike%20Rides.png?alt=media&token=43bab673-c5ef-447a-8689-bf52fdcba68a",
+    tags: [
+      "Python",
+      "Data Gathering",
+      "Data Assessment",
+      "Data Exploration",
+      "Data Manipulation",
+      "Data Visualization",
+      " Dashboard Creation",
+    ],
+    category: "data",
+    github: "https://github.com/atipjaitham/LondonBikeRides",
+    webapp:
+      "https://public.tableau.com/shared/PD2QFRR7P?:display_count=n&:origin=viz_share_link",
+  },
+  {
+    id: 4,
+    title: "Build an AI Text Summarizer app",
+    date: "",
+    description:
+      "Create an AI-powered text summarizer web app using Node.js, Replit, and Postman. Explore real-world APIs, including the Hugging Face Inference API, and integrate them into your application. Build and deploy a full stack app for text summarization, enhancing your skills in HTML/CSS/JavaScript and API integration.",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/atpxj-portfolio.appspot.com/o/projects%2FAI%20Text%20Summarizer%20App.png?alt=media&token=4ef5f773-6c7d-47a5-87a0-96d8d3861c46",
+    tags: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Node.js",
+      "API",
+      "Full Stack Development",
+    ],
+    category: "other",
+    github: "https://github.com/atipjaitham/AITextSummarizer",
+    webapp:
+      "https://replit.com/@atipjaitham/AI-Text-Summarizer-App-Starter-Template#summarize.js",
+  },
+  {
+    id: 5,
+    title: "GURU99 BANK Automated Testing",
+    date: "",
+    description:
+      "This project offers practical exposure to automated testing methodologies within a simulated corporate context. Participants engage in automating test cases for a demo banking website utilizing Selenium and Pytest. The project provides a unique opportunity for participants to compare their automation scripts with expert-generated samples in real-time.",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/atpxj-portfolio.appspot.com/o/projects%2FGURU99BANK_AUTOMATION.png?alt=media&token=c66600a3-85ac-4b0c-b13e-3e76fe9ce79f",
     tags: [
       "Python",
       "Selenium",
-
+      "Pytest",
+      "Test Data Management",
+      "Test Coverage",
     ],
-    category: "robot framework",
-    github: "",
-    webapp: "",
+    category: "testing",
+    github: "https://github.com/atipjaitham/GURU99-SELENIUM",
+    webapp: "https://demo.guru99.com/V4",
+  },
+  {
+    id: 6,
+    title: "GURU99 BANK Manual Testing",
+    date: "",
+    description:
+      "This project is a manual testing project aimed at practicing software testing skills online. It focuses on testing a sample banking website. Participants will create and execute test cases online and have the opportunity to compare their work with sample test cases generated by experts in real-time.",
+    image:
+      "https://firebasestorage.googleapis.com/v0/b/atpxj-portfolio.appspot.com/o/projects%2FGURU99BANK_MANUAL.png?alt=media&token=6f065bcd-a4d9-4914-aa29-87db52df30b2",
+    tags: [
+      "Manual software testing",
+      "Creating and executing test cases",
+      "Testing web services",
+    ],
+    category: "testing",
+    github: "https://github.com/atipjaitham/GURU99BANK-MANUAL",
+    webapp:
+      "https://drive.google.com/drive/folders/1871CRsLfYwabhvXXrU4kCCTU3_bs5sHD?usp=sharing",
   },
 ];
 
